@@ -1,4 +1,4 @@
-`include "\PACKAGE\RISCV_PKG.vh"
+`include "RISCV_PKG.vh"
 module InstructionMemory(   
     input [`INSTRUCTION_SIZE-1:0] InstructionAddress,
     output reg [`INSTRUCTION_SIZE-1:0] ReadInstruction
