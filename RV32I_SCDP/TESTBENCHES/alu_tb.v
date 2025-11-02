@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ns
 `include "RISCV_PKG.vh"
 
 module alu_tb;
