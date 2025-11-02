@@ -27,10 +27,10 @@ module alu_tb;
             alu_control = ctrl;
             #10;
             if (result !== expected)
-                $display("❌ ERROR: ctrl=%0d | rs1=%0d | rs2=%0d | expected=%h | got=%h @ time %0t",
+                $display("ERROR: ctrl=%0d | rs1=%0d | rs2=%0d | expected=%h | got=%h @ time %0t",
                          ctrl, in1, in2, expected, result, $time);
             else
-                $display("✅ PASS: ctrl=%0d | rs1=%0d | rs2=%0d | result=%h", ctrl, in1, in2, result);
+                $display("PASS: ctrl=%0d | rs1=%0d | rs2=%0d | result=%h", ctrl, in1, in2, result);
         end
     endtask
 
