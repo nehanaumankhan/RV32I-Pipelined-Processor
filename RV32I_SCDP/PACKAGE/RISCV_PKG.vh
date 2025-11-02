@@ -19,3 +19,12 @@
 `define SLL                     4'b1001
 `define SRL                     4'b1010
 `define SRA                     4'b1011
+
+// ALUOp [3:0]
+`define R_TYPE      2'b000
+`define I_TYPE      2'b001
+`define S_TYPE      2'b010
+`define SB_TYPE     2'b011
+`define U_TYPE      2'b100
+`define UJ_TYPE     2'b101
+`define NOP         2'b110
