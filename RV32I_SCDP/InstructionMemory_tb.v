@@ -4,8 +4,8 @@
 module InstructionMemory_tb;
 
     // Testbench signals
-    reg [INSTRUCTION_SIZE-1:0] InstructionAddress;
-    wire [INSTRUCTION_SIZE-1:0] ReadInstruction;
+    reg [`INSTRUCTION_SIZE-1:0] InstructionAddress;
+    wire [`INSTRUCTION_SIZE-1:0] ReadInstruction;
 
     // Instantiate the DUT
     InstructionMemory uut (
@@ -18,9 +18,13 @@ module InstructionMemory_tb;
         input [31:0] expected;
         begin
             #1; // wait for combinational propagation
-            $display("Time=%0t | PC=%0d | Instruction=%h (Expected=%h)", $time, InstructionAddress, ReadInstruction, expected);
-            assert (ReadInstruction === expected)
-                else $error("Mismatch at PC=%0d: Got %h, Expected %h", InstructionAddress, ReadInstruction, expected);
+            $display("Time=%0t | PC=%0d | Instruction=%h (Expected=%h)", 
+                     $time, InstructionAddress, ReadInstruction, expected);
+            if (ReadInstruction !== expected)
+                $display("ERROR: Mismatch at PC=%0d: Got %h, Expected %h", 
+                          InstructionAddress, ReadInstruction, expected);
+            else
+                $display("PASS: Instruction matched at PC=%0d", InstructionAddress);
         end
     endtask
 
@@ -52,7 +56,7 @@ module InstructionMemory_tb;
         check_output(32'h00300193);
 
         $display("All instruction fetch tests PASSED!");
-        $finish;
+        $stop;
     end
 
 endmodule

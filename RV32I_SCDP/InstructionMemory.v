@@ -1,9 +1,10 @@
 `include "RISCV_PKG.vh"
 module InstructionMemory(   
-    input [INSTRUCTION_SIZE-1:0] InstructionAddress,
-    output reg [INSTRUCTION_SIZE-1:0] ReadInstruction);
+    input [`INSTRUCTION_SIZE-1:0] InstructionAddress,
+    output reg [`INSTRUCTION_SIZE-1:0] ReadInstruction
+    );
 
-    reg [7:0] Memory[0:MEM_SIZE - 1]; // Byte-addressable memory with memory size in bytes
+    reg [7:0] Memory[0:`MEM_SIZE - 1]; // Byte-addressable memory with memory size in bytes
 
     initial begin   
         $readmemh("MachineCode.mem", Memory);
