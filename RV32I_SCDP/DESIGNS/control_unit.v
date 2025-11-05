@@ -1,3 +1,4 @@
+`include "RISCV_PKG.vh"
 module control_unit(
     input [6:0]opcode,
     output reg regwrite, memread, memwrite, branch, jump, memtoreg, alusrc1, alusrc2, lui, pcsrc,
