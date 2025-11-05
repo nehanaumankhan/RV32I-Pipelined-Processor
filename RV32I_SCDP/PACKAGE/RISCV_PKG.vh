@@ -24,10 +24,11 @@
 `define pc_plus_4               4'b1110
 
 // ALUOp [3:0]
-`define R_TYPE      2'b000
-`define I_TYPE      2'b001
-`define S_TYPE      2'b010
-`define SB_TYPE     2'b011
-`define U_TYPE      2'b100
-`define UJ_TYPE     2'b101
-`define NOP         2'b110
+`define R_TYPE      3'b000 // ADD, SUB, AND, OR, XOR, SLT, SLTU, SLL, SRL, SRA
+`define I_TYPE      3'b001 //ADDI, ANDI, ORI, XORI, SLTI, SLTIU, SLLI, SRLI, SRAI, JALR
+`define STORE       3'b010 // SB, SH, SW
+`define BRANCH      3'b011 // BEQ, BNE, BLT, BGE, BLTU, BGEU
+`define U_TYPE      3'b100 // LUI, AUIPC
+`define JUMP        3'b101 // JAL, JALR
+`define LOAD        3'b110 // LW, LH, LB, LHU, LBU
+`define NOP         3'b111 // No operation
