@@ -19,6 +19,9 @@
 `define SLL                     4'b1001
 `define SRL                     4'b1010
 `define SRA                     4'b1011
+`define equal                   4'b1100
+`define not_equal               4'b1101
+`define pc_plus_4               4'b1110
 
 // ALUOp [3:0]
 `define R_TYPE      2'b000

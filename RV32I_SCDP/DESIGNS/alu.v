@@ -19,6 +19,9 @@ always @(*) begin
         `SLL:                   result = rs1 << rs2[4:0];
         `SRL:                   result = rs1 >> rs2[4:0];
         `SRA:                   result = $signed(rs1) >>> rs2[4:0];
+        `equal:                 result = {31'b0, (rs1 == rs2)};
+        `not_equal:             result = {31'b0, (rs1 != rs2)};
+        `pc_plus_4:             result = rs1 + 4;   // rs1 holds the PC value
         default:                result = 32'b0;
     endcase
 end
