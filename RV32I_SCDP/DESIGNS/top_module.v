@@ -3,10 +3,10 @@
 module SCDP(
     input clk, rst);
 
-    wire memread, memwrite, branch, jump, regwrite, pcsrc, alusrc1, alusrc2, lui, memtoreg;
-    reg [2:0] aluop;
-    reg [3:0] alu_control;
-    reg [`INSTRUCTION_SIZE-1:0] instruction, rs1_data, rs2_data, rd_data, pc_out, operand1, operand2, alu_result, data_memory_output, alu_or_data_out, immediate, branch_taken;
+    wire memread, memwrite, branch, jump, regwrite, pcsrc, alusrc1, alusrc2, lui, memtoreg, b_or_j;
+    wire [2:0] aluop;
+    wire [3:0] alu_control;
+    wire [`INSTRUCTION_SIZE-1:0] instruction, rs1_data, rs2_data, rd_data, pc_in, pc_out, operand1, operand2, alu_result, data_memory_output, alu_or_data_out, immediate, branch_taken, adder_input_1, adder_input_2;
 
     InstructionMemory instruction_memory (
         .InstructionAddress(pc_out), // Connect to PC output
@@ -18,12 +18,12 @@ module SCDP(
         .memread(memread), // Connect to data memory read logic
         .memwrite(memwrite), // Connect to data memory write logic
         .branch(branch), // Connect to branch control logic
-        .jump(jump) // Connect to jump control logic
-        .regwrite(regwrite) // Connect to register file write logic
-        .pcsrc(pcsrc) // Connect to PC source selection logic
-        .alusrc1(alusrc1) // Connect to ALU source 1 selection logic
-        .alusrc2(alusrc2) // Connect to ALU source 2 selection logic
-        .lui(lui) // Connect to LUI control logic
+        .jump(jump), // Connect to jump control logic
+        .regwrite(regwrite), // Connect to register file write logic
+        .pcsrc(pcsrc), // Connect to PC source selection logic
+        .alusrc1(alusrc1), // Connect to ALU source 1 selection logic
+        .alusrc2(alusrc2), // Connect to ALU source 2 selection logic
+        .lui(lui), // Connect to LUI control logic
         .memtoreg(memtoreg) // Connect to memory to register selection logic
     );
 
@@ -89,7 +89,7 @@ module SCDP(
         .instruction(instruction),
         .imm_out(immediate) // Connect to ALUSRC2 mux
     );
-    
+
     mux LUI_MUX (
         .sel(lui),
         .in0(alu_or_data_out), // Connect to MemToReg mux output
@@ -105,13 +105,31 @@ module SCDP(
     or jump_or_branch (
         .a(jump),
         .b(branch_taken),
-        .out(pcsrc)
+        .out(b_or_j)
+    );
+    mux PC_MUX1 (
+        .sel(b_or_j),
+        .in0(32'd4), // Next sequential instruction
+        .in1(immediate), // 
+        .out(adder_input_1) // Connect to PC input
     );
 
+    mux PC_MUX2 (
+        .sel(pcsrc),
+        .in0(pc_out), // Current PC value
+        .in1(rs1_data), // For JALR, use rs1_data as base
+        .out(adder_input_2) // Connect to PC input
+    );
+
+    adder PC_adder (
+        .in1(adder_input_2),
+        .in2(adder_input_1),
+        .out(pc_in) // Connect to PC input
+    );
     pc program_counter (
         .clk(clk),
         .rst(rst),
-        .in(), // Connect to next PC logic
+        .in(pc_in), // Connect to next PC logic
         .out(pc_out) // Connect to instruction memory address
     );
 endmodule
