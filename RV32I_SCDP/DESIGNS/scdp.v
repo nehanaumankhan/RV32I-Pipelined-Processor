@@ -1,7 +1,14 @@
 `include "RISCV_PKG.vh"
 
 module SCDP(
-    input clk, rst);
+    input clk, rst,
+     // === Added Outputs for Observation ===
+    output [`INSTRUCTION_SIZE-1:0] alu_result_out,
+    output [`INSTRUCTION_SIZE-1:0] regfile_data1_out,
+    output [`INSTRUCTION_SIZE-1:0] regfile_data2_out,
+    output [`INSTRUCTION_SIZE-1:0] data_memory_out,
+    output [`INSTRUCTION_SIZE-1:0] pc_out_debug
+    );
 
     wire memread, memwrite, branch, jump, regwrite, pcsrc, alusrc1, alusrc2, lui, memtoreg, b_or_j;
     wire [2:0] aluop;
@@ -132,4 +139,12 @@ module SCDP(
         .in(pc_in), // Connect to next PC logic
         .out(pc_out) // Connect to instruction memory address
     );
+
+    // === Assign Outputs for Observation ===
+    assign alu_result_out = alu_result;
+    assign regfile_data1_out = rs1_data;
+    assign regfile_data2_out = rs2_data;
+    assign data_memory_out = data_memory_output;
+    assign pc_out_debug = pc_out;
+    
 endmodule
