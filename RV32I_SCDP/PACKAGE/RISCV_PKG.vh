@@ -5,7 +5,7 @@
 `define INSTRUCTION_SIZE 32
 `define WORD_LENGTH      32
 `define REG_COUNT        32
-`define MEM_SIZE         1024
+`define MEM_SIZE         4096
 
 // ALU Operation Codes
 `define ADD                     4'b0000

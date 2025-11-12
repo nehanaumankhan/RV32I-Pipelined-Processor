@@ -1,64 +1,48 @@
-`timescale 1ns/1ps
+`timescale 1ns/1ns
 `include "RISCV_PKG.vh"
 
-module SCDP_tb;
+module scdp_tb;
 
+    // Clock and reset
     reg clk, rst;
 
-    // DUT outputs (make sure SCDP has these outputs declared)
-    wire [31:0] alu_result;
-    wire [31:0] pc_out;
-    wire [31:0] reg_rs1_data;
-    wire [31:0] reg_rs2_data;
-    wire [31:0] rd_data;
-    wire [31:0] data_memory_output;
+    // Wires for observing outputs
+    wire [`INSTRUCTION_SIZE-1:0] instruction_fetched;
+    wire [`INSTRUCTION_SIZE-1:0] alu_result_out;
+    wire [`INSTRUCTION_SIZE-1:0] regfile_data1_out;
+    wire [`INSTRUCTION_SIZE-1:0] regfile_data2_out;
+    wire [`INSTRUCTION_SIZE-1:0] regfile_rd_out;
+    wire [`INSTRUCTION_SIZE-1:0] data_memory_out;
+    wire [`INSTRUCTION_SIZE-1:0] pc_out_debug;
 
-    // Instantiate the main processor (SCDP)
-    SCDP uut (
+    // Instantiate the SCDP module
+    SCDP dut (
         .clk(clk),
         .rst(rst),
-        .alu_result(alu_result),
-        .pc_out(pc_out),
-        .reg_rs1_data(reg_rs1_data),
-        .reg_rs2_data(reg_rs2_data),
-        .rd_data(rd_data),
-        .data_memory_output(data_memory_output)
+        .instruction_fetched(instruction_fetched),
+        .alu_result_out(alu_result_out),
+        .regfile_data1_out(regfile_data1_out),
+        .regfile_data2_out(regfile_data2_out),
+        .regfile_rd_out(regfile_rd_out),
+        .data_memory_out(data_memory_out),
+        .pc_out_debug(pc_out_debug)
     );
 
-    // Clock generation — 10 ns period
+    // Clock generation (10ns period)
     always #5 clk = ~clk;
 
-    // Simulation control
+    // Reset sequence
     initial begin
-        $display("===========================================");
-        $display("     RISC-V Single Cycle Datapath Test     ");
-        $display("===========================================");
         clk = 0;
         rst = 1;
-        #10 rst = 0;   // Release reset
+        @(posedge clk);
+        rst = 0;
     end
 
-    // Monitor datapath behavior
+    // Run simulation for a fixed number of cycles
     initial begin
-        $display("Time\tPC\t\tALU_Result\tRS1_Data\tRS2_Data\tMem_Out\t\tRD_Data");
-        $display("--------------------------------------------------------------------------");
-        $monitor("%0t\t%h\t%h\t%h\t%h\t%h\t%h",
-                 $time, pc_out, alu_result, reg_rs1_data, reg_rs2_data, data_memory_output, rd_data);
-    end
-
-    // Stop simulation after some time
-    initial begin
-        #300; // Run enough cycles to execute full program
-        $display("\n===========================================");
-        $display("     Simulation Finished — Check Results   ");
-        $display("===========================================\n");
-        $stop;
-    end
-
-    // Optional VCD dump for GTKWave or ModelSim waveform viewing
-    initial begin
-        $dumpfile("SCDP_wave.vcd");
-        $dumpvars(0, SCDP_tb);
+        #800; // Run for 200ns (adjust depending on instruction count)
+        $finish;
     end
 
 endmodule

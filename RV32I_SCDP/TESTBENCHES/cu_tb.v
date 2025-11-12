@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-`include "RISCV_PKG.vh"   // Ensure this defines macros like `R_TYPE`, `I_TYPE`, etc.
+`include "RISCV_PKG.vh"
 
 module control_unit_tb;
 

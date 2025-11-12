@@ -1,7 +1,8 @@
+`include "RISCV_PKG.vh"
 module pc(
     input clk, rst,
     input [`INSTRUCTION_SIZE - 1 : 0] in,
-    output [`INSTRUCTION_SIZE - 1 : 0] out
+    output reg [`INSTRUCTION_SIZE - 1 : 0] out
 );
 always @(posedge clk) begin
     if (rst) begin

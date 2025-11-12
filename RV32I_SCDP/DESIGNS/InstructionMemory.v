@@ -7,7 +7,7 @@ module InstructionMemory(
     reg [7:0] Memory[0:`MEM_SIZE - 1]; // Byte-addressable memory with memory size in bytes
 
     initial begin   
-        $readmemh("\BENCHMARK_CODES\MachineCode.mem", Memory);
+        $readmemh("MachineCode2.mem", Memory);
     end
 
     always @(*) begin
