@@ -1,0 +1,39 @@
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of SCDP.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of scdp_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.scdp_tb
+# vsim -gui work.scdp_tb 
+# Start time: 21:52:36 on Nov 16,2025
+# Loading work.scdp_tb
+# Loading work.SCDP
+# Loading work.InstructionMemory
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.mux
+# Loading work.alu_cu
+# Loading work.alu
+# Loading work.datamemory
+# Loading work.imm_gen
+# Loading work.adder
+# Loading work.pc
+add wave -position insertpoint sim:/scdp_tb/*
+run -all
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v(39)
+#    Time: 1 us  Iteration: 0  Instance: /scdp_tb
+# Break in Module scdp_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v line 39
+quit -sim
+# End time: 21:58:17 on Nov 16,2025, Elapsed time: 0:05:41
+# Errors: 0, Warnings: 2
