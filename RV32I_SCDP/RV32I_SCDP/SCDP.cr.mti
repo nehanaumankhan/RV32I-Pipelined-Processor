@@ -1,0 +1,144 @@
+{C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/MainCu.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/MainCu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/hex_to_7.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/hex_to_7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hex_to_7seg
+
+Top level modules:
+	hex_to_7seg
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/ImmGen.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/ImmGen.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imm_gen
+
+Top level modules:
+	imm_gen
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/scdp_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/scdp_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module scdp_tb
+
+Top level modules:
+	scdp_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory_tb
+
+Top level modules:
+	InstructionMemory_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/ProgramCounter.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/ProgramCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Adder.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/wrapper.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/wrapper.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wrapper
+
+Top level modules:
+	wrapper
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/control_unit_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/control_unit_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit_tb
+
+Top level modules:
+	control_unit_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegisterFile.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_cu_tb
+
+Top level modules:
+	alu_cu_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datamemory_tb
+
+Top level modules:
+	datamemory_tb
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RISCV_PKG.vh} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RISCV_PKG.vh}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/SCDP.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/SCDP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SCDP
+
+Top level modules:
+	SCDP
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Mux.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Alu.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/Alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/AluCu.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/AluCu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_cu
+
+Top level modules:
+	alu_cu
+
+} {} {}} {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory.v} {1 {vlog -work work -stats=none {C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datamemory
+
+Top level modules:
+	datamemory
+
+} {} {}}

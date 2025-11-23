@@ -1,0 +1,335 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder
+!s110 1763311941
+!i10b 1
+!s100 n<dR_d:RJ3?gW>Ao;Elkf2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL7VJQjNdz1ER30k<eE5;l3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP
+w1763068506
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Adder.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Adder.v
+!i122 69
+Z3 L0 2 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1763311941.000000
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+Z7 !s110 1763311942
+!i10b 1
+!s100 P01LXXCQN24`>^21<nzV=2
+R0
+IEhMBSdP7W7AQ[Pb=kH?_o2
+R1
+R2
+w1763068582
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Alu.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Alu.v
+!i122 70
+L0 2 27
+R4
+r1
+!s85 0
+31
+Z8 !s108 1763311942.000000
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Alu.v|
+!i113 1
+R5
+R6
+valu_cu
+R7
+!i10b 1
+!s100 <>FdK3EJzOYm54_0co;<62
+R0
+IHO3:>24?^_b<M[5gi2EGB2
+R1
+R2
+w1763068596
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/AluCu.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/AluCu.v
+!i122 71
+L0 3 31
+R4
+r1
+!s85 0
+31
+R8
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/AluCu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/AluCu.v|
+!i113 1
+R5
+R6
+vcontrol_unit
+Z9 !s110 1763311943
+!i10b 1
+!s100 1GSX<i15^]jEcYT^<=@Sc3
+R0
+IVaV:ghPIK_4G^C[VTmOM;2
+R1
+R2
+w1763068620
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/MainCu.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/MainCu.v
+!i122 76
+L0 2 54
+R4
+r1
+!s85 0
+31
+Z10 !s108 1763311943.000000
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/MainCu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/MainCu.v|
+!i113 1
+R5
+R6
+vdatamemory
+R7
+!i10b 1
+!s100 OK;h?6Lz><^=MQYDg6PS10
+R0
+IkR?ec?I:V>ZQ[8YiEK0n03
+R1
+R2
+w1763068482
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/DataMemory.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/DataMemory.v
+!i122 72
+L0 3 63
+R4
+r1
+!s85 0
+31
+R8
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/DataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/DataMemory.v|
+!i113 1
+R5
+R6
+vhex_to_7seg
+R7
+!i10b 1
+!s100 LT<n^9zOVHFV@gXHoHV572
+R0
+IdIA^XYSo7kNH7ginziO6M3
+R1
+R2
+w1763068762
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/hex_to_7.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/hex_to_7.v
+!i122 73
+L0 2 26
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/hex_to_7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/hex_to_7.v|
+!i113 1
+R5
+R6
+vimm_gen
+R7
+!i10b 1
+!s100 D:dgnQAFjRBVF`Mc<lFDC2
+R0
+IW[z@k2IP>gXzZ<cTaER]o2
+R1
+R2
+w1763068798
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ImmGen.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ImmGen.v
+!i122 74
+L0 3 47
+R4
+r1
+!s85 0
+31
+R8
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ImmGen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ImmGen.v|
+!i113 1
+R5
+R6
+vInstructionMemory
+R7
+!i10b 1
+!s100 Zfdn`:bfU]`]2ag[2:m9J3
+R0
+IRX4A0PFSi2`Qa[PifZE?V0
+R1
+R2
+w1763068336
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/InstructionMemory.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/InstructionMemory.v
+!i122 75
+L0 2 18
+R4
+r1
+!s85 0
+31
+R8
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/InstructionMemory.v|
+!i113 1
+R5
+R6
+n@instruction@memory
+vmux
+R9
+!i10b 1
+!s100 d@1YVNzZ_B3IfQjQ4?31L2
+R0
+IXz?HHf1o?LLgkLVPM`^6c1
+R1
+R2
+w1763068644
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Mux.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Mux.v
+!i122 77
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/Mux.v|
+!i113 1
+R5
+R6
+vpc
+R9
+!i10b 1
+!s100 Q[A:U>hPS82oCd1=DZ<6[1
+R0
+IZbKn?AJSCc>5QkK<1ED5E3
+R1
+R2
+w1763068742
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ProgramCounter.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ProgramCounter.v
+!i122 78
+L0 2 13
+R4
+r1
+!s85 0
+31
+R10
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/ProgramCounter.v|
+!i113 1
+R5
+R6
+vregfile
+R9
+!i10b 1
+!s100 jzF]HEC9I=j^4Z@AcYk;A2
+R0
+Im4gga^hPVzkF1c2mG?:Tl2
+R1
+R2
+w1763068480
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/RegisterFile.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/RegisterFile.v
+!i122 79
+L0 3 25
+R4
+r1
+!s85 0
+31
+R10
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/RegisterFile.v|
+!i113 1
+R5
+R6
+vSCDP
+R9
+!i10b 1
+!s100 W>32k0c2dMh[XLCBIVmcg2
+R0
+IKHfS2;AhM4HJCmWhA6^h_1
+R1
+R2
+w1763069744
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/SCDP.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/SCDP.v
+!i122 80
+L0 3 148
+R4
+r1
+!s85 0
+31
+R10
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/SCDP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/SCDP.v|
+!i113 1
+R5
+R6
+n@s@c@d@p
+vscdp_tb
+!s110 1763311944
+!i10b 1
+!s100 C2YDWbg^R1e56[7IYm?DD2
+R0
+IQIT]S?jliHEZA`mEgi`C`0
+R1
+R2
+w1763128007
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v
+!i122 82
+L0 4 39
+R4
+r1
+!s85 0
+31
+!s108 1763311944.000000
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/MODELSIM PROJECTS/NEW_SCDP/scdp_tb.v|
+!i113 1
+R5
+R6
+vwrapper
+R9
+!i10b 1
+!s100 aDZNgQngV=n:1c?7Z>Ab90
+R0
+IZA]jn9TSglEh?904kWSK^2
+R1
+R2
+w1763070692
+8C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/wrapper.v
+FC:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/wrapper.v
+!i122 81
+L0 4 47
+R4
+r1
+!s85 0
+31
+R10
+!s107 RISCV_PKG.vh|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32i/RV32i.srcs/sources_1/new/wrapper.v|
+!i113 1
+R5
+R6

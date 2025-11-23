@@ -1,0 +1,1163 @@
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v failed with 1 errors.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 1 failed with 1 error.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of RegFile_tb.v was successful.
+vsim -gui work.regfile_tb
+# vsim -gui work.regfile_tb 
+# Start time: 07:33:29 on Nov 23,2025
+# Loading work.regfile_tb
+# Loading work.regfile
+add wave -position insertpoint sim:/regfile_tb/*
+run -all
+# 
+# === Starting Register File Testbench ===
+# [INFO] Reset complete, all registers = 0
+# [PASS]    Write/Read x5 | Expected = a5a5a5a5, Got = a5a5a5a5
+# [PASS]   Write/Read x10 | Expected = 12345678, Got = 12345678
+# [PASS]   Write/Read x15 | Expected = 87654321, Got = 87654321
+# [PASS] er write attempt | Expected = 00000000, Got = 00000000
+# [PASS] llel read rs1=x5 | Expected = a5a5a5a5, Got = a5a5a5a5
+# [PASS] lel read rs2=x10 | Expected = 12345678, Got = 12345678
+# 
+# === TEST SUMMARY ===
+# PASS Count = 6
+# FAIL Count = 0
+# ALL TESTS PASSED SUCCESSFULLY :)
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v(102)
+#    Time: 76 ns  Iteration: 0  Instance: /regfile_tb
+# Break in Module regfile_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v line 102
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# End time: 07:55:14 on Nov 23,2025, Elapsed time: 0:21:45
+# Errors: 0, Warnings: 8
+# vsim -gui work.instruction_memory_tb 
+# Start time: 07:55:14 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 07:55:15 on Nov 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+restart -f
+# No Design Loaded!
+# Break key hit
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 07:56:13 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 07:56:13 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v failed with 1 errors.
+# Compile of InstructionMemory_tb.v failed with 4 errors.
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:01:40 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:01:40 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:02:15 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:02:15 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:07:35 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:07:36 on Nov 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:09:27 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:09:27 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:10:03 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:10:03 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:10:30 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:10:31 on Nov 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:11:46 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:11:47 on Nov 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:14:37 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:14:38 on Nov 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.instruction_memory_tb
+# vsim -gui work.instruction_memory_tb 
+# Start time: 08:16:28 on Nov 23,2025
+# Loading work.instruction_memory_tb
+# Loading work.InstructionMemory
+# ** Error (suppressible): (vsim-7041) String assignment:  Assigning a string to a packed type requires a cast.
+#    Time: 0 ns  Iteration: 0  Instance: /instruction_memory_tb File: C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v Line: 84
+# Error loading design
+# End time: 08:16:28 on Nov 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of InstructionMemory_tb.v was successful.
+vsim -gui work.InstructionMemory_tb
+# vsim -gui work.InstructionMemory_tb 
+# Start time: 08:22:02 on Nov 23,2025
+# Loading work.InstructionMemory_tb
+# Loading work.InstructionMemory
+run -all
+# ===== Instruction Memory Self-Test =====
+# PC = 0x0: PASS, Instruction = 0xb7
+# PC = 0x4: PASS, Instruction = 0x117
+# PC = 0x8: PASS, Instruction = 0x500193
+# PC = 0xc: PASS, Instruction = 0xa00213
+# PC = 0x10: PASS, Instruction = 0x91b293
+# PC = 0x14: PASS, Instruction = 0x324313
+# PC = 0x18: PASS, Instruction = 0x5183b3
+# PC = 0x1c: PASS, Instruction = 0x627433
+# PC = 0x20: PASS, Instruction = 0x51e4b3
+# PC = 0x24: PASS, Instruction = 0x41c533
+# PC = 0x28: PASS, Instruction = 0x702023
+# PC = 0x2c: PASS, Instruction = 0x800223
+# PC = 0x30: PASS, Instruction = 0x901423
+# PC = 0x34: PASS, Instruction = 0x2583
+# PC = 0x38: PASS, Instruction = 0x404603
+# PC = 0x3c: PASS, Instruction = 0x805683
+# PC = 0x40: FAIL, Instruction = 0x358463 (expected 0x358663)
+# PC = 0x44: FAIL, Instruction = 0x359263 (expected 0x359463)
+# PC = 0x48: FAIL, Instruction = 0x41c263 (expected 0x13)
+# PC = 0x4c: FAIL, Instruction = 0x325263 (expected 0x41c463)
+# PC = 0x50: FAIL, Instruction = 0x41e263 (expected 0x13)
+# PC = 0x54: FAIL, Instruction = 0x327263 (expected 0x325463)
+# PC = 0x58: FAIL, Instruction = 0x80076f (expected 0x13)
+# PC = 0x5c: FAIL, Instruction = 0x900793 (expected 0x41e463)
+# PC = 0x60: FAIL, Instruction = 0x170813 (expected 0x13)
+# PC = 0x64: FAIL, Instruction = 0x80067 (expected 0x327463)
+# PC = 0x68: FAIL, Instruction = 0x6f (expected 0x13)
+# PC = 0x6c: FAIL, Instruction = 0xx (expected 0x100076f)
+# ===== Test Finished =====
+# ** Note: $finish    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v(81)
+#    Time: 28 ns  Iteration: 0  Instance: /InstructionMemory_tb
+# 1
+# Break in Module InstructionMemory_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v line 81
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InstructionMemory_tb
+# Loading work.InstructionMemory
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# === Instruction Memory TB (pure Verilog) ===
+# 
+# Loading MachineCode.mem into testbench...
+# [PASS] PC=0 | Expected=000000b7, Got=000000b7
+# [PASS] PC=4 | Expected=00000117, Got=00000117
+# [PASS] PC=8 | Expected=00500193, Got=00500193
+# [PASS] PC=12 | Expected=00a00213, Got=00a00213
+# [PASS] PC=16 | Expected=0091b293, Got=0091b293
+# [PASS] PC=20 | Expected=00324313, Got=00324313
+# [PASS] PC=24 | Expected=005183b3, Got=005183b3
+# [PASS] PC=28 | Expected=00627433, Got=00627433
+# [PASS] PC=32 | Expected=0051e4b3, Got=0051e4b3
+# [PASS] PC=36 | Expected=0041c533, Got=0041c533
+# [PASS] PC=40 | Expected=00702023, Got=00702023
+# [PASS] PC=44 | Expected=00800223, Got=00800223
+# [PASS] PC=48 | Expected=00901423, Got=00901423
+# [PASS] PC=52 | Expected=00002583, Got=00002583
+# [PASS] PC=56 | Expected=00404603, Got=00404603
+# [PASS] PC=60 | Expected=00805683, Got=00805683
+# [PASS] PC=64 | Expected=00358463, Got=00358463
+# [PASS] PC=68 | Expected=00359263, Got=00359263
+# [PASS] PC=72 | Expected=0041c263, Got=0041c263
+# [PASS] PC=76 | Expected=00325263, Got=00325263
+# [PASS] PC=80 | Expected=0041e263, Got=0041e263
+# [PASS] PC=84 | Expected=00327263, Got=00327263
+# [PASS] PC=88 | Expected=0080076f, Got=0080076f
+# [PASS] PC=92 | Expected=00900793, Got=00900793
+# [PASS] PC=96 | Expected=00170813, Got=00170813
+# [PASS] PC=100 | Expected=00080067, Got=00080067
+# [PASS] PC=104 | Expected=0000006f, Got=0000006f
+# [PASS] PC=108 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=112 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=116 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=120 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=124 | Expected=xxxxxxxx, Got=xxxxxxxx
+# 
+# === TEST SUMMARY ===
+# PASS Count = 32
+# FAIL Count = 0
+# ALL TESTS PASSED :)
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v(91)
+#    Time: 101 ns  Iteration: 0  Instance: /InstructionMemory_tb
+# Break in Module InstructionMemory_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v line 91
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InstructionMemory_tb
+# Loading work.InstructionMemory
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# === Instruction Memory TB ===
+# 
+# Byte 0 = b7, Byte 1 = 00
+# [PASS] PC=0 | Expected=000000b7, Got=000000b7
+# [PASS] PC=4 | Expected=00000117, Got=00000117
+# [PASS] PC=8 | Expected=00500193, Got=00500193
+# [PASS] PC=12 | Expected=00a00213, Got=00a00213
+# [PASS] PC=16 | Expected=0091b293, Got=0091b293
+# [PASS] PC=20 | Expected=00324313, Got=00324313
+# [PASS] PC=24 | Expected=005183b3, Got=005183b3
+# [PASS] PC=28 | Expected=00627433, Got=00627433
+# [PASS] PC=32 | Expected=0051e4b3, Got=0051e4b3
+# [PASS] PC=36 | Expected=0041c533, Got=0041c533
+# [PASS] PC=40 | Expected=00702023, Got=00702023
+# [PASS] PC=44 | Expected=00800223, Got=00800223
+# [PASS] PC=48 | Expected=00901423, Got=00901423
+# [PASS] PC=52 | Expected=00002583, Got=00002583
+# [PASS] PC=56 | Expected=00404603, Got=00404603
+# [PASS] PC=60 | Expected=00805683, Got=00805683
+# [PASS] PC=64 | Expected=00358463, Got=00358463
+# [PASS] PC=68 | Expected=00359263, Got=00359263
+# [PASS] PC=72 | Expected=0041c263, Got=0041c263
+# [PASS] PC=76 | Expected=00325263, Got=00325263
+# [PASS] PC=80 | Expected=0041e263, Got=0041e263
+# [PASS] PC=84 | Expected=00327263, Got=00327263
+# [PASS] PC=88 | Expected=0080076f, Got=0080076f
+# [PASS] PC=92 | Expected=00900793, Got=00900793
+# [PASS] PC=96 | Expected=00170813, Got=00170813
+# [PASS] PC=100 | Expected=00080067, Got=00080067
+# [PASS] PC=104 | Expected=0000006f, Got=0000006f
+# [PASS] PC=108 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=112 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=116 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=120 | Expected=xxxxxxxx, Got=xxxxxxxx
+# [PASS] PC=124 | Expected=xxxxxxxx, Got=xxxxxxxx
+# 
+# === TEST SUMMARY ===
+# PASS Count = 32
+# FAIL Count = 0
+# ALL TESTS PASSED :)
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v(82)
+#    Time: 101 ns  Iteration: 0  Instance: /InstructionMemory_tb
+# Break in Module InstructionMemory_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/InstructionMemory_tb.v line 82
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.regfile_tb
+# End time: 09:20:06 on Nov 23,2025, Elapsed time: 0:58:04
+# Errors: 0, Warnings: 2
+# vsim -gui work.regfile_tb 
+# Start time: 09:20:06 on Nov 23,2025
+# Loading work.regfile_tb
+# Loading work.regfile
+run -all
+# 
+# === Starting Register File Testbench ===
+# [INFO] Reset complete, all registers = 0
+# [PASS]    Write/Read x5 | Expected = a5a5a5a5, Got = a5a5a5a5
+# [PASS]   Write/Read x10 | Expected = 12345678, Got = 12345678
+# [PASS]   Write/Read x15 | Expected = 87654321, Got = 87654321
+# [PASS] er write attempt | Expected = 00000000, Got = 00000000
+# [PASS] llel read rs1=x5 | Expected = a5a5a5a5, Got = a5a5a5a5
+# [PASS] lel read rs2=x10 | Expected = 12345678, Got = 12345678
+# 
+# === TEST SUMMARY ===
+# PASS Count = 6
+# FAIL Count = 0
+# ALL TESTS PASSED SUCCESSFULLY :)
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v(102)
+#    Time: 76 ns  Iteration: 0  Instance: /regfile_tb
+# Break in Module regfile_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/RegFile_tb.v line 102
+vsim -gui work.datamemory_tb
+# End time: 09:25:20 on Nov 23,2025, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 1
+# vsim -gui work.datamemory_tb 
+# Start time: 09:25:20 on Nov 23,2025
+# Loading work.datamemory_tb
+# Loading work.datamemory
+run -all
+# 
+# === Starting Data Memory Testbench ===
+# [PASS]  SW at addr 0x00 | Expected = aabbccdd, Got = aabbccdd
+# [PASS]  (sign-extended) | Expected = ffffbeef, Got = ffffbeef
+# [PASS]  (zero-extended) | Expected = 0000beef, Got = 0000beef
+# [PASS]  (sign-extended) | Expected = ffffffaa, Got = ffffffaa
+# [PASS]  (zero-extended) | Expected = 000000aa, Got = 000000aa
+# 
+# === TEST SUMMARY ===
+# PASS Count = 5
+# FAIL Count = 0
+# ALL TESTS PASSED SUCCESSFULLY :) 
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v(120)
+#    Time: 65 ns  Iteration: 0  Instance: /datamemory_tb
+# Break in Module datamemory_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v line 120
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of cu_tb.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.datamemory_tb
+# Loading work.datamemory
+run -all
+# 
+# === Starting Data Memory Testbench ===
+# [PASS]  SW at addr 0x00 | Expected = aabbccdd, Got = aabbccdd
+# [PASS]  (sign-extended) | Expected = ffffbeef, Got = ffffbeef
+# [PASS]  (zero-extended) | Expected = 0000beef, Got = 0000beef
+# [PASS]  (sign-extended) | Expected = ffffffaa, Got = ffffffaa
+# [PASS]  (zero-extended) | Expected = 000000aa, Got = 000000aa
+# 
+# === TEST SUMMARY ===
+# PASS Count = 5
+# FAIL Count = 0
+# ALL TESTS PASSED SUCCESSFULLY :) 
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v(104)
+#    Time: 65 ns  Iteration: 0  Instance: /datamemory_tb
+# Break in Module datamemory_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/DataMemory_tb.v line 104
+vsim -gui work.control_unit_tb
+# End time: 09:30:32 on Nov 23,2025, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 1
+# vsim -gui work.control_unit_tb 
+# Start time: 09:30:32 on Nov 23,2025
+# Loading work.control_unit_tb
+# Loading work.control_unit
+run -all
+# ========== Starting Control Unit Testbench ==========
+# Test 1 PASSED for opcode = 0000000
+# Test 2 PASSED for opcode = 0110011
+# Test 3 PASSED for opcode = 0010011
+# Test 4 PASSED for opcode = 0000011
+# Test 5 PASSED for opcode = 0100011
+# Test 6 PASSED for opcode = 1100011
+# Test 7 PASSED for opcode = 1101111
+# Test 8 PASSED for opcode = 1100111
+# Test 9 PASSED for opcode = 0110111
+# Test 10 PASSED for opcode = 0010111
+# =====================================================
+# Total Tests Run: 10
+# Tests Failed   : 0
+# ALL TESTS PASSED SUCCESSFULLY!
+# =====================================================
+# ** Note: $finish    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/cu_tb.v(104)
+#    Time: 50 ns  Iteration: 0  Instance: /control_unit_tb
+# 1
+# Break in Module control_unit_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/cu_tb.v line 104
+# Error opening C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/cu_tb.v
+# Path name 'C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/cu_tb.v' doesn't exist.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# 20 compiles, 1 failed with no errors.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.control_unit_tb
+# End time: 09:32:27 on Nov 23,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 5
+# vsim -gui work.control_unit_tb 
+# Start time: 09:32:27 on Nov 23,2025
+# Loading work.control_unit_tb
+# Loading work.control_unit
+run -all
+# ========== Starting Control Unit Testbench ==========
+# Test 1 PASSED for opcode = 0000000
+# Test 2 PASSED for opcode = 0110011
+# Test 3 PASSED for opcode = 0010011
+# Test 4 PASSED for opcode = 0000011
+# Test 5 PASSED for opcode = 0100011
+# Test 6 PASSED for opcode = 1100011
+# Test 7 PASSED for opcode = 1101111
+# Test 8 PASSED for opcode = 1100111
+# Test 9 PASSED for opcode = 0110111
+# Test 10 PASSED for opcode = 0010111
+# =====================================================
+# Total Tests Run: 10
+# Tests Failed   : 0
+# ALL TESTS PASSED SUCCESSFULLY!
+# =====================================================
+# ** Note: $finish    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/control_unit_tb.v(104)
+#    Time: 50 ns  Iteration: 0  Instance: /control_unit_tb
+# 1
+# Break in Module control_unit_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/control_unit_tb.v line 104
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.alu_cu_tb
+# End time: 09:37:26 on Nov 23,2025, Elapsed time: 0:04:59
+# Errors: 0, Warnings: 2
+# vsim -gui work.alu_cu_tb 
+# Start time: 09:37:26 on Nov 23,2025
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# 
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# 
+# PASS:                                                                              ADD
+# PASS:                                                                              SUB
+# PASS:                                                                              SLL
+# PASS:                                                                              SLT
+# PASS:                                                                             SLTU
+# PASS:                                                                              XOR
+# PASS:                                                                              SRL
+# PASS:                                                                              SRA
+# PASS:                                                                               OR
+# PASS:                                                                              AND
+# PASS:                                                                             ADDI
+# PASS:                                                                             SLLI
+# PASS:                                                                             SLTI
+# PASS:                                                                            SLTIU
+# PASS:                                                                             XORI
+# PASS:                                                                             SRLI
+# PASS:                                                                             SRAI
+# PASS:                                                                              ORI
+# PASS:                                                                             ANDI
+# PASS:                                                                               LB
+# PASS:                                                                               LH
+# PASS:                                                                               LW
+# PASS:                                                                              LBU
+# PASS:                                                                              LHU
+# PASS:                                                                               SB
+# PASS:                                                                               SH
+# PASS:                                                                               SW
+# PASS:                                                                              BEQ
+# PASS:                                                                              BNE
+# PASS:                                                                              BLT
+# PASS:                                                                              BGE
+# PASS:                                                                             BLTU
+# PASS:                                                                             BGEU
+# SKIP:                                                                 LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS:                                                                            AUIPC
+# PASS:                                                                              JAL
+# PASS:                                                                             JALR
+# PASS:                                                                              NOP
+# 
+# === SUMMARY ===
+# Total tests run : 38
+# Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(119)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 119
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.alu_cu_tb
+# End time: 09:41:26 on Nov 23,2025, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 3
+# vsim -gui work.alu_cu_tb 
+# Start time: 09:41:26 on Nov 23,2025
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# 
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# 
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# 
+# === SUMMARY ===
+# Total tests run : 38
+# Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(122)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 122
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# === SUMMARY ===
+# Total tests run : 38
+# Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(122)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 122
+restart -f
+run -all
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# === SUMMARY ===
+# Total tests run : 38
+# Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(122)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 122
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# === SUMMARY ===
+# Total tests run : 38, Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(121)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 121
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# Total tests run : 38, Total failures  : 0
+# ALL TESTS PASSED
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(120)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 120
+run -step
+# Nothing left to do.
+# Compile of Adder.v was successful.
+# Compile of Alu.v was successful.
+# Compile of alu_cu_tb.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of AluCu.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_tb.v was successful.
+# Compile of hex_to_7.v was successful.
+# Compile of ImmGen.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of InstructionMemory_tb.v was successful.
+# Compile of MainCu.v was successful.
+# Compile of Mux.v was successful.
+# Compile of ProgramCounter.v was successful.
+# Compile of RegFile_tb.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of RISCV_PKG.vh was successful.
+# Compile of SCDP.v was successful.
+# Compile of scdp_tb.v was successful.
+# Compile of wrapper.v was successful.
+# Compile of control_unit_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_cu_tb
+# Loading work.alu_cu
+run -all
+# ===== ALU_CU: Running full RV32I test vector (38 insns) =====
+# PASS: ADD
+# PASS: SUB
+# PASS: SLL
+# PASS: SLT
+# PASS: SLTU
+# PASS: XOR
+# PASS: SRL
+# PASS: SRA
+# PASS: OR
+# PASS: AND
+# PASS: ADDI
+# PASS: SLLI
+# PASS: SLTI
+# PASS: SLTIU
+# PASS: XORI
+# PASS: SRLI
+# PASS: SRAI
+# PASS: ORI
+# PASS: ANDI
+# PASS: LB
+# PASS: LH
+# PASS: LW
+# PASS: LBU
+# PASS: LHU
+# PASS: SB
+# PASS: SH
+# PASS: SW
+# PASS: BEQ
+# PASS: BNE
+# PASS: BLT
+# PASS: BGE
+# PASS: BLTU
+# PASS: BGEU
+# SKIP: LUI (don't-care) — ALU output don't-care (skipped check)
+# PASS: AUIPC
+# PASS: JAL
+# PASS: JALR
+# PASS: NOP
+# Total tests run : 38, Total failures  : 0 ALL TESTS PASSED ALHAMDULILLAH!
+# ** Note: $stop    : C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v(118)
+#    Time: 39 ns  Iteration: 0  Instance: /alu_cu_tb
+# Break in Module alu_cu_tb at C:/Users/Neha Nauman Khan/OneDrive/Desktop/RV32i/RV32I-Pipelined-Processor/RV32I_SCDP/RV32I_SCDP/alu_cu_tb.v line 118
+# End time: 14:23:43 on Nov 23,2025, Elapsed time: 4:42:17
+# Errors: 0, Warnings: 1

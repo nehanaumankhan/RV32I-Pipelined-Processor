@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../NEW_SCDP" \
+"../../../../../NEW_SCDP/Adder.v" \
+"../../../../../NEW_SCDP/Alu.v" \
+"../../../../../NEW_SCDP/AluCu.v" \
+"../../../../../NEW_SCDP/DataMemory.v" \
+"../../../../../NEW_SCDP/ImmGen.v" \
+"../../../../../NEW_SCDP/InstructionMemory.v" \
+"../../../../../NEW_SCDP/MainCu.v" \
+"../../../../../NEW_SCDP/Mux.v" \
+"../../../../../NEW_SCDP/ProgramCounter.v" \
+"../../../../../NEW_SCDP/RegisterFile.v" \
+"../../../../../NEW_SCDP/SCDP.v" \
+"../../../../../NEW_SCDP/hex_to_7.v" \
+"../../../../../NEW_SCDP/wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

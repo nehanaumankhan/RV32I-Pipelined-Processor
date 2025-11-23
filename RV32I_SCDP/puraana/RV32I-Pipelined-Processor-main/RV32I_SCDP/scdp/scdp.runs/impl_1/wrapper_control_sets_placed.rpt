@@ -1,0 +1,225 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Nov 18 22:58:20 2025
+| Host         : DESKTOP-QHTSA1Q running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file wrapper_control_sets_placed.rpt
+| Design       : wrapper
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   161 |
+| Unused register locations in slices containing registers |     4 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|    16+ |          161 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             124 |           16 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            4032 |         1309 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+-----------------------------------------------------+------------------+------------------+----------------+
+|      Clock Signal      |                    Enable Signal                    | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------------+-----------------------------------------------------+------------------+------------------+----------------+
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[82][7]_2[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[84][7]_1[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[45][7]_2[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[43][7]_3[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[44][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[41][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[42][7]_0[0]        | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[46][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[40][7][0]          | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[48][7][0]          | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[50][7]_1[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[52][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[53][7][0]          | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[47][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[39][7][0]          | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[49][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[3][7]_0[0]         | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[4][7][0]           | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[51][7]_0[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/E[0]                       | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[124][7]_1[0]       | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[87][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[88][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[8][7][0]           | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[86][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[75][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[70][7]_1[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[89][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[72][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[7][7][0]           | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[76][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[71][7]_0[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[73][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[74][7][0]          | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[81][7]_0[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[83][7]_0[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[85][7]_3[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[80][7][0]          | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[79][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[77][7]_2[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[99][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[96][7]_1[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[92][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[98][7]_1[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[9][7]_0[0]         | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[90][7]_0[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[93][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[91][7]_0[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[95][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[94][7]_1[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[97][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[102][7]_2[0]       | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[103][7]_0[0]       | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[104][7][0]         | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[100][7]_1[0]       | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[101][7]_0[0]       | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[116][7]_2[0]       | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[118][7]_2[0]       | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[110][7]_0[0]       | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[112][7]_0[0]       | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[119][7][0]         | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[11][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[120][7][0]         | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[121][7][0]         | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[122][7]_0[0]       | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[107][7][0]         | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[109][7][0]         | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[115][7]_1[0]       | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[105][7][0]         | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[106][7]_0[0]       | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[111][7][0]         | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[114][7]_0[0]       | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[108][7]_2[0]       | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[10][7]_0[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[113][7]_0[0]       | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[117][7][0]         | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[16][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[17][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[18][7]_2[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[125][7][0]         | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[78][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[14][7]_1[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[15][7]_0[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[123][7][0]         | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[127][7]_0[0]       | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[12][7]_2[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[13][7]_2[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[126][7]_3[0]       | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[27][7]_0[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[29][7]_2[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[21][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[20][7]_1[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[23][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[28][7]_0[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[19][7][0]          | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[22][7]_2[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[24][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[1][7][0]           | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[26][7]_0[0]        | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[30][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[25][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[2][7]_0[0]         | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[37][7]_1[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[38][7][0]          | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[32][7][0]          | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[34][7]_2[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[31][7]_0[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[35][7][0]          | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[33][7]_2[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[36][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[60][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[59][7][0]          | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[66][7]_0[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[54][7]_1[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[67][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[63][7]_1[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[65][7]_0[0]        | rst_IBUF         |                4 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[5][7]_1[0]         | rst_IBUF         |                2 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[61][7]_1[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[64][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[57][7][0]          | rst_IBUF         |                8 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[62][7]_0[0]        | rst_IBUF         |                5 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[58][7]_0[0]        | rst_IBUF         |                7 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[55][7]_1[0]        | rst_IBUF         |                3 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[56][7]_0[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[68][7]_2[0]        | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[6][7]_3[0]         | rst_IBUF         |                6 |             16 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/mem_reg[69][7][0]          | rst_IBUF         |                5 |             16 |
+|  clk_IBUF_BUFG         |                                                     | rst_IBUF         |                8 |             60 |
+|  slow_clk_reg_n_0_BUFG |                                                     | rst_IBUF         |                8 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[15][31][0]   | rst_IBUF         |               23 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[18][31][0]   | rst_IBUF         |               17 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[11][31][0]   | rst_IBUF         |               19 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[19][31][0]   | rst_IBUF         |               18 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[10][31][0]   | rst_IBUF         |               22 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[26][31][0]   | rst_IBUF         |               20 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[27][31][0]   | rst_IBUF         |               14 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[1][31][0]    | rst_IBUF         |               19 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[29][31][0]   | rst_IBUF         |               20 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[16][31][0]   | rst_IBUF         |               21 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[2][31][0]    | rst_IBUF         |               24 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[23][31][0]   | rst_IBUF         |               22 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[14][31][0]   | rst_IBUF         |               24 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[22][31][0]   | rst_IBUF         |               19 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[25][31][0]   | rst_IBUF         |               23 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[28][31][0]   | rst_IBUF         |               19 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[21][31][0]   | rst_IBUF         |               25 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[13][31][0]   | rst_IBUF         |               24 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[12][31][0]   | rst_IBUF         |               21 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[17][31][0]   | rst_IBUF         |               21 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[20][31][0]   | rst_IBUF         |               20 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[24][31][0]   | rst_IBUF         |               20 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[4][31][0]    | rst_IBUF         |               22 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[3][31][0]    | rst_IBUF         |               18 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[5][31][0]    | rst_IBUF         |               22 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[8][31][0]    | rst_IBUF         |               18 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[7][31][0]    | rst_IBUF         |               25 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[9][31][0]    | rst_IBUF         |               28 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[31][31]_1[0] | rst_IBUF         |               26 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[6][31][0]    | rst_IBUF         |               23 |             64 |
+|  slow_clk_reg_n_0_BUFG | cpu_inst/program_counter/Registers_reg[30][31][0]   | rst_IBUF         |               18 |             64 |
++------------------------+-----------------------------------------------------+------------------+------------------+----------------+
+
+

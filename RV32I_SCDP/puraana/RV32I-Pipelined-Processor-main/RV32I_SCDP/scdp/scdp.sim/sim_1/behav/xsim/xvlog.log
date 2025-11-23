@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Downloads/RV32I-Pipelined-Processor-main/RV32I-Pipelined-Processor-main/RV32I_SCDP/NEW_SCDP/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Downloads/RV32I-Pipelined-Processor-main/RV32I-Pipelined-Processor-main/RV32I_SCDP/OLD/TESTBENCHES/InstructionMemory_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory_tb
