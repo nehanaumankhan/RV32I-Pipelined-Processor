@@ -5,7 +5,7 @@ module wrapper (
     input clk,
     input rst,
     output [7:0] AN , // ALU RESULT lower 4 bits
-    output [6:0] SEG_C,
+    output [7:0] SEG_C,
     output [3:0] data_memory_out,
     output [3:0] regfile_rd_out,
     output [7:0] pc_out_debug
